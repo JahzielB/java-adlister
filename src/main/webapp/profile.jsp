@@ -1,19 +1,18 @@
 <%--
   Created by IntelliJ IDEA.
   User: jahzy
-  Date: 7/14/20
-  Time: 4:06 PM
+  Date: 7/15/20
+  Time: 10:40 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>To Do</title>
+    <title>Profile</title>
 </head>
 <body>
-    <h1>Here are your To Do's:</h1>
-    <p><%= request.getParameter("item")%></p>
-    <p><%= request.getMethod()%></p>
+<%@ include file="partials/nav.jsp"%>
+<%@ include file="partials/footer.jsp"%>
 </body>
 </html>
