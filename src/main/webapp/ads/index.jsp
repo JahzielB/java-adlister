@@ -16,7 +16,7 @@
 <body>
     <jsp:include page="../partials/navbar.jsp" />
     <ul class="list-group">
-        <c:forEach items="${allAds}" var="ad">
+        <c:forEach items="${ads}" var="ad">
             <li class="list-group-item">${ad.id} - ${ad.title} - ${ad.description}</li>
         </c:forEach>
     </ul>
