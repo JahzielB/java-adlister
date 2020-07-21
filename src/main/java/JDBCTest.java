@@ -1,13 +1,11 @@
-import com.mysql.jdbc.Driver;
-
+import com.mysql.cj.jdbc.Driver;
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.List;
 
 public class JDBCTest {
     public static void main(String[] args) {
-        System.out.println(getEmployeeFirstNames().toString());
-        System.out.println(getEmployeeFirstNames(5).toString());
+        System.out.println(getEmployeeFirstNames());
+        System.out.println(getEmployeeFirstNames(6));
     }
 
     private static ArrayList<String> getEmployeeFirstNames() {
